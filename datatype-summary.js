@@ -13,12 +13,12 @@ bigint
 object
 array
 function 
-
-const isLoggedIn = false
-const outsideTemp = null
-let userEmail;
-const id = Symbol( '1123')
-const anotherld = Symbol( '123')
+                
+const isLoggedIn = false  // boolean data type
+const outsideTemp = null  // null data type
+let userEmail;  // undefined data type
+const id = Symbol( '1123')  // symbol data type
+const anotherld = Symbol( '123')  // symbol data type
 
 console.log(id == anotherld)
 
