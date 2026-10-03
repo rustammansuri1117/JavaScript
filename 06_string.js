@@ -24,3 +24,7 @@ const name1 = new String('Rustam')
 
 const newStringOne = "   rustam    "
 console.log(newStringOne.trim()) // rustam
+
+const URL = "https://www.rustam.com"
+
+console.log(URL.includes("rustam")) // true
